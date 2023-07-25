@@ -1,0 +1,89 @@
+.hero__section {
+  background-image: url("../../images/hero/hero-mobile.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  padding-top: 155px;
+}
+
+.hero__title {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 58.152px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 62.997px; /* 108.333% */
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.hero__button {
+  color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+
+  /* CTA */
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 27px */
+
+  border-radius: 108px;
+  background-color: var(--main-red, #dd2242);
+  border: none;
+  width: 315px;
+  height: 59px;
+
+  margin-bottom: 54px;
+}
+
+.hero__bcg {
+  padding-top: 35px;
+  padding-left: 32px;
+  border: 1px solid #000;
+  opacity: 0.6000000238418579;
+  background: #000;
+}
+
+.hero__number {
+  color: #dd2242;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+
+.hero__subtitle {
+  color: #fff;
+
+  /* H4 */
+  font-family: DM Sans;
+  font-size: 26.409px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 41.081px; /* 155.556% */
+  margin-bottom: 5px;
+}
+
+.hero__subtitle__text {
+  color: #939393;
+  font-feature-settings: "clig" off, "liga" off;
+
+  /* Mobile Paragraph 1 */
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.5px;
+  margin-bottom: 30px;
+}
+.hero__video {
+  width: 314px;
+  height: 191px;
+  padding-bottom: 40px;
+}
