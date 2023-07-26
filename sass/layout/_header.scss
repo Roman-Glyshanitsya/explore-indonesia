@@ -38,6 +38,10 @@
   -webkit-text-fill-color: transparent;
 }
 
+.nav__menu {
+  display: none;
+}
+
 .header__icons {
   display: flex;
   align-items: center;
@@ -54,4 +58,40 @@
   width: 35px;
   height: 35px;
   fill: #ffffff;
+}
+
+@media screen and (min-width: 1200px) {
+  .header__desktop {
+    display: flex;
+    align-items: flex-end;
+  }
+
+  .header__logo {
+    margin-right: 80px;
+  }
+
+  .nav__menu {
+    display: block;
+    width: 572px;
+  }
+
+  .nav__menu__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    color: #fff;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+  }
+
+  // .nav__menu__item {
+  // }
+
+  // .nav__menu__link {
+  // }
 }
